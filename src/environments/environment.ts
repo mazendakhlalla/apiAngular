@@ -3,7 +3,12 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  ApiBaseUrl: 'https://alpha-vantage.p.rapidapi.com/query',
+  XRapidAPIHostHeaderName: 'X-RapidAPI-Host',
+  XRapidAPIHostHeaderValue: 'alpha-vantage.p.rapidapi.com',
+  XRapidAPIKeyHeaderName: 'X-RapidAPI-Key',
+  XRapidAPIKeyHeaderValue: '66aeb46933mshe0089723bf2b882p1d303fjsnd3f5309fb232',
 };
 
 /*
